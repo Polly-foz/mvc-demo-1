@@ -1,0 +1,20 @@
+@keyframes backgroundColorChange {
+    0%{
+        background-color: cornflowerblue;
+    }
+    100%{
+        background-color: pink;
+    }
+}
+#app4 .circle{
+    width:20vw;
+    height:20vw;
+    border-radius: 50%;
+    margin-top:8vw;
+    margin-left:15vw;
+    background-color: cornflowerblue;
+}
+
+#app4 .circle.active{
+    animation: backgroundColorChange 1s infinite alternate linear;
+}

@@ -1,0 +1,26 @@
+#app2 .tabBar ol{
+    display: flex;
+}
+#app2 .tabBar ol > li{
+    /*border-top: 1px solid black;*/
+    width: 50%;
+    text-align: center;
+    background-color: burlywood;
+    color: gray;
+}
+#app2 .tabBar .active{
+    background-color: antiquewhite;
+    color: black;
+}
+#app2 .contentWrapper{
+    padding: 1rem;
+    text-align: center;
+}
+
+#app2 .contentWrapper .content.active{
+    display: block;
+}
+
+#app2 .contentWrapper .content{
+    display:none;
+}
